@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+.form-container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 60px;
+    background: #eee;
+}
+.form-container form{
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 500px;
+}
+.form-container form h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #000;
+}
+.form-container form input{
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 17px;
+    margin: 8px 0;
+    background: #eee;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.form-container form .form-btn{
+    background: #1ea81e;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 20px;
+    cursor: pointer;
+}
+.form-container form .form-btn:hover{
+    background: #147914;
+    color: #fff;
+    transition: 0.6s ease-in-out;
+}
+.form-container form p{
+    margin-top: 10px;
+    font-size: 20px;
+    color: #333;
+}
+.form-container form a{
+    color: #1ea81e;
+}
+.form-container form a:hover{
+    color: #147914;
+    transition: 0.6s ease-in-out;
+}
+.error-message{
+    margin: 10px 0;
+    display: block;
+    background: #1ea81e;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+}
